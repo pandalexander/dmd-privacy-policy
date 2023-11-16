@@ -53,34 +53,36 @@ h2 {
   grid-row: 1 / -1;
 }
 
-.policy-section {
-  margin-bottom: 30px;
-}
-
-.contact-info {
-  font-style: italic;
-}
-
 header {
   text-align: center;
+  height: auto;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
 }
 
 nav ul {
-  list-style: none;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  list-style: none;
   text-align: center;
   color: #a1b9c9;
 }
 
 nav li {
   display: inline-block;
-  margin-right: 20px;
   color: #a1b9c9;
 }
 
@@ -98,11 +100,24 @@ a:visited {
   color: white;
 }
 
-main {
+body {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.intro {
+section {
+  margin: 0;
+}
+
+.features > ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.policy-section {
   margin-bottom: 30px;
+}
+
+.contact-info {
+  font-style: italic;
 }
