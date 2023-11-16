@@ -1,16 +1,19 @@
+/* Colors
+    <Color x:Key="Primary">#AB8264</Color>
+    <Color x:Key="Secondary">#A1B9C9</Color>
+*/
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin: 20px;
+  padding: 0px 50px 0px 50px;
+  background-color: #ab8264;
+  color: white;
 }
 
 h1 {
   font-size: 24px;
   text-align: center;
-}
-
-p {
-  margin-bottom: 15px;
 }
 
 .policy-section {
@@ -30,20 +33,27 @@ nav ul {
   list-style: none;
   padding: 0;
   text-align: center;
+  color: #a1b9c9;
 }
 
 nav li {
   display: inline-block;
   margin-right: 20px;
+  color: #a1b9c9;
 }
 
-nav a {
+a {
   text-decoration: none;
-  color: blue;
+  color: white;
 }
 
-nav a:hover {
-  text-decoration: underline;
+a:hover,
+a:visited:hover {
+  color: #a1b9c9;
+}
+
+a:visited {
+  color: white;
 }
 
 main {
